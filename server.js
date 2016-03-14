@@ -13,6 +13,7 @@ function compile(str, path) {
 var app = express();
 
 if (env === 'development') {
+} else {
     app.set('views', __dirname + '/server/views');
     app.set('view engine', 'jade');
 
