@@ -30,7 +30,7 @@ if (env === 'development') {
 };
 
 //mongodb settings
-mongoose.connect('mongodb://localhost/YosiMean');
+mongoose.connect('mongodb://yosi:password123@ds011369.mlab.com:11369/yosimean');
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error..'));
 db.once('open', function callback() {

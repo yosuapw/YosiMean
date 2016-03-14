@@ -13,8 +13,10 @@
     "express": "^4.13.4",
     "express-logger": "0.0.3",
     "jade": "^1.11.0",
-    "mongoose": "^4.4.6",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.7",
     "morgan": "^1.7.0",
+    "nodemon": "^1.9.1",
     "stylus": "^0.54.0"
   },
   "devDependencies": {
